@@ -11,7 +11,8 @@ namespace NumeracyCalcAssignment
             Console.WriteLine("1. Binary");
             Console.WriteLine("2. Cryptography");
             Console.WriteLine("3. Matrices");
-            Console.WriteLine("4. Exit");
+            Console.WriteLine("4. Calculator");
+            Console.WriteLine("5. Exit");
             int choice = Convert.ToInt32(Console.ReadLine());
             switch (choice)
             {
@@ -28,6 +29,9 @@ namespace NumeracyCalcAssignment
                     Mat();
                     break;
                 case 4:
+                    Calc();
+                    break;
+                case 5:
                     break;
                 default:
                     Console.WriteLine("Invalid input");
@@ -219,6 +223,11 @@ namespace NumeracyCalcAssignment
         public static void MatDetInv()
         {
 
+        }
+        public static void Calc()
+        {
+            Console.WriteLine("Enter Equation");
+            string input = Console.ReadLine();
         }
     }
 }
