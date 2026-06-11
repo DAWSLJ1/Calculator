@@ -1,0 +1,14 @@
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\bin\Debug\net8.0\NumeracyCalcAssignment.exe
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\bin\Debug\net8.0\NumeracyCalcAssignment.deps.json
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\bin\Debug\net8.0\NumeracyCalcAssignment.runtimeconfig.json
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\bin\Debug\net8.0\NumeracyCalcAssignment.dll
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\bin\Debug\net8.0\NumeracyCalcAssignment.pdb
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.GeneratedMSBuildEditorConfig.editorconfig
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.AssemblyInfoInputs.cache
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.AssemblyInfo.cs
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.csproj.CoreCompileInputs.cache
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.dll
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\refint\NumeracyCalcAssignment.dll
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.pdb
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\NumeracyCalcAssignment.genruntimeconfig.cache
+H:\Projects\NumeracyCalcAssignment\NumeracyCalcAssignment\obj\Debug\net8.0\ref\NumeracyCalcAssignment.dll
