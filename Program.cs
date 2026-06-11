@@ -50,23 +50,29 @@ namespace NumeracyCalcAssignment
             switch (input)
             {
                 case 1:
+                    Console.Clear();
                     BinaryAddSub();
                     break;
                 case 2:
+                    Console.Clear();
                     BinaryConvHexDec();
                     break;
                 case 3:
+                    Console.Clear();
                     BinaryBCD();
                     break;
                 case 4:
+                    Console.Clear();
                     BinaryConvDecBin();
                     break;
                 case 5:
+                    Console.Clear();
                     Binary();
                     break;
                 default:
                     Console.WriteLine("Invalid Input");
                     Console.ReadLine();
+                    Console.Clear();
                     Binary();
                     break;
             }
@@ -88,6 +94,7 @@ namespace NumeracyCalcAssignment
 
                 }
             }
+            Console.Clear();
             Binary();
         }
         public static void BinaryConvHexDec()
@@ -103,9 +110,53 @@ namespace NumeracyCalcAssignment
 
         }
         public static void Crypto()
+        
+        {
+            Console.WriteLine("What process would you like to do");
+            Console.WriteLine();
+            Console.WriteLine("1. Caesar Cypher");
+            Console.WriteLine("2. Affine Cypher");
+            Console.WriteLine("3. Brute Fore Algorithm");
+            Console.WriteLine("4. Exit");
+            int input = Convert.ToInt32(Console.ReadLine());
+            switch (input)
+            {
+                case 1:
+                    Console.Clear();
+                    CryptoCaesar();
+                    break;
+                case 2:
+                    Console.Clear();
+                    CryptoAffine();
+                    break;
+                case 3:
+                    Console.Clear();
+                    CryptoBrute();
+                    break;
+                case 4:
+                    Console.Clear();
+                    Binary();
+                    break;
+                default:
+                    Console.WriteLine("Invalid Input");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Crypto();
+                    break;
+            }
+        } 
+        public static void CryptoCaesar()
         {
 
-        } 
+        }
+        public static void CryptoAffine()
+        {
+
+        }
+        public static void CryptoBrute()
+        {
+
+        }
         public static void Mat()
         {
 
