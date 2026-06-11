@@ -67,7 +67,7 @@ namespace NumeracyCalcAssignment
                     break;
                 case 5:
                     Console.Clear();
-                    Binary();
+                    Main();
                     break;
                 default:
                     Console.WriteLine("Invalid Input");
@@ -110,7 +110,7 @@ namespace NumeracyCalcAssignment
 
         }
         public static void Crypto()
-        
+
         {
             Console.WriteLine("What process would you like to do");
             Console.WriteLine();
@@ -135,7 +135,7 @@ namespace NumeracyCalcAssignment
                     break;
                 case 4:
                     Console.Clear();
-                    Binary();
+                    Main();
                     break;
                 default:
                     Console.WriteLine("Invalid Input");
@@ -144,7 +144,7 @@ namespace NumeracyCalcAssignment
                     Crypto();
                     break;
             }
-        } 
+        }
         public static void CryptoCaesar()
         {
 
@@ -158,6 +158,65 @@ namespace NumeracyCalcAssignment
 
         }
         public static void Mat()
+        {
+            Console.WriteLine("What process would you like to do");
+            Console.WriteLine();
+            Console.WriteLine("1. 2x2 Matrices");
+            Console.WriteLine("2. Functions");
+            Console.WriteLine("3. Dot Product");
+            Console.WriteLine("4. Scalar Multiplication");
+            Console.WriteLine("5. Determinant/Inverse");
+            Console.WriteLine("6. Exit");
+            int input = Convert.ToInt32(Console.ReadLine());
+            switch (input)
+            {
+                case 1:
+                    Console.Clear();
+                    Mat2x2();
+                    break;
+                case 2:
+                    Console.Clear();
+                    MatFunction();
+                    break;
+                case 3:
+                    Console.Clear();
+                    MatDot();
+                    break;
+                case 4:
+                    MatScalar();
+                    break;
+                case 5:
+                    MatDetInv();
+                    break;
+                case 6:
+                    Console.Clear();
+                    Main();
+                    break;
+                default:
+                    Console.WriteLine("Invalid Input");
+                    Console.ReadLine();
+                    Console.Clear();
+                    Mat();
+                    break;
+            }
+        }
+        public static void Mat2x2()
+        {
+
+        }
+        public static void MatFunction()
+        {
+
+        }
+        public static void MatDot()
+        {
+
+        }
+        public static void MatScalar()
+        {
+
+        }
+        public static void MatDetInv()
         {
 
         }
