@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Data;
+using System.Security.Cryptography.X509Certificates;
 
 namespace NumeracyCalcAssignment
 {
@@ -29,6 +30,7 @@ namespace NumeracyCalcAssignment
                     Mat();
                     break;
                 case 4:
+                    Console.Clear();
                     Calc();
                     break;
                 case 5:
@@ -227,7 +229,23 @@ namespace NumeracyCalcAssignment
         public static void Calc()
         {
             Console.WriteLine("Enter Equation");
-            string input = Console.ReadLine();
+            string input;
+            bool on = true;
+            while (on)
+            {
+                input = (Console.ReadLine());
+                if (input == "exit")
+                {
+                    on = false;
+                }
+                else
+                {
+                    int input2 = Convert.ToInt32(Console.ReadLine());
+
+                }
+            }
+            Console.Clear();
+            Main();
         }
     }
 }
