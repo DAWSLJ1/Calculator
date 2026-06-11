@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37111.16 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeracyCalcAssignment", "NumeracyCalcAssignment\NumeracyCalcAssignment.csproj", "{46709341-39EB-4860-9ECA-02C3E0C25A4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumeracyCalcAssignment", "NumeracyCalcAssignment.csproj", "{AEB3314B-8C3F-A298-C71D-E05D40A103F4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{46709341-39EB-4860-9ECA-02C3E0C25A4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{46709341-39EB-4860-9ECA-02C3E0C25A4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{46709341-39EB-4860-9ECA-02C3E0C25A4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{46709341-39EB-4860-9ECA-02C3E0C25A4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB3314B-8C3F-A298-C71D-E05D40A103F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB3314B-8C3F-A298-C71D-E05D40A103F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB3314B-8C3F-A298-C71D-E05D40A103F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB3314B-8C3F-A298-C71D-E05D40A103F4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {517955B9-7885-4AD5-BCE0-8A67C3750BD1}
+		SolutionGuid = {64B2449C-3ED7-41A3-ABC1-7928CF18070E}
 	EndGlobalSection
 EndGlobal
