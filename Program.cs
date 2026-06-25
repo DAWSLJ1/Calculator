@@ -1,5 +1,6 @@
 ﻿using System.Data;
 using System.Security.Cryptography.X509Certificates;
+using System.Text;
 
 namespace NumeracyCalcAssignment
 {
@@ -57,6 +58,16 @@ namespace NumeracyCalcAssignment
         }
         public static void Binary()
         {
+            Console.ForegroundColor= ConsoleColor.Red;
+            Console.WriteLine(@"
+ ____     _    _   _   ___   ____   __   __
+| __ )   | |  | \ | | / _ \ |  _ \  \ \ / /
+|  _ \   | |  |  \| || |_| || |_) |  \ V /
+| |_) |  | |  | |\  ||  _  ||  _ <    | |
+|____/   |_|  |_| \_||_| |_||_| \_\   |_|
+");
+            Console.WriteLine();
+            Console.ResetColor ();
             Console.WriteLine("What process would you like to do");
             Console.WriteLine();
             Console.WriteLine("1. Addition/Subtraction");
@@ -130,6 +141,19 @@ namespace NumeracyCalcAssignment
         public static void Crypto()
 
         {
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine(@"
+  _____                  _                               _           
+ / ____|                | |                             | |          
+| |     _ __ _   _ _ __ | |_ ___   __ _ _ __ __ _ _ __ | |__  _   _ 
+| |    | '__| | | | '_ \| __/ _ \ / _` | '__/ _` | '_ \| '_ \| | | |
+| |____| |  | |_| | |_) | || (_) | (_| | | | (_| | |_) | | | | |_| |
+ \_____|_|   \__, | .__/ \__\___/ \__, |_|  \__,_| .__/|_| |_|\__, |
+              __/ | |              __/ |         | |           __/ |
+             |___/|_|             |___/          |_|          |___/
+");
+            Console.WriteLine();
+            Console.ResetColor();
             Console.WriteLine("What process would you like to do");
             Console.WriteLine();
             Console.WriteLine("1. Caesar Cypher");
@@ -217,6 +241,16 @@ namespace NumeracyCalcAssignment
         }
         public static void Mat()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
+            Console.WriteLine(@"
+ __  __   _   _____   _____  ___  ____  _____  _____  _____
+|  \/  | / \ |_   _| |_   _||_ _||  _ \| ____|| ____|| ____|
+| |\/| |/ _ \  | |     | |   | | | |_) |  _|  |  _|  |  _|
+| |  | / ___ \ | |     | |   | | |  _ <| |___ | |___ | |___
+|_|  |_/_/  \_\|_|     |_|  |___||_| \_\_____||_____||_____|
+");
+            Console.WriteLine();
+            Console.ResetColor();
             Console.WriteLine("What process would you like to do");
             Console.WriteLine();
             Console.WriteLine("1. 2x2 Matrices");
@@ -293,8 +327,10 @@ namespace NumeracyCalcAssignment
                 else
                 {
                     int input2 = Convert.ToInt32(Console.ReadLine());
+                    on = false;
 
                 }
+                on = false;
             }
             Console.Clear();
             Main();
