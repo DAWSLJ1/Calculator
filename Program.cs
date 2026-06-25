@@ -7,6 +7,18 @@ namespace NumeracyCalcAssignment
     {
         static void Main()
         {
+            //Used AI to ask to create ascii art: "Can you create an ascii art of the word "Calculator" and write it as a c#"
+            Console.ForegroundColor = ConsoleColor.Blue;
+            Console.WriteLine(@"  _____      _            _       _             
+ / ____|    | |          | |     | |            
+| |     __ _| | ___ _   _| | __ _| |_ ___  _ __ 
+| |    / _` | |/ __| | | | |/ _` | __/ _ \| '__|
+| |___| (_| | | (__| |_| | | (_| | || (_) | |   
+ \_____\__,_|_|\___|\__,_|_|\__,_|\__\___/|_|   
+");
+            Console.WriteLine();
+            Console.ResetColor();
+            Console.WriteLine();
             Console.WriteLine("Which mode would you like to use:");
             Console.WriteLine();
             Console.WriteLine("1. Binary");
@@ -153,7 +165,47 @@ namespace NumeracyCalcAssignment
         }
         public static void CryptoCaesar()
         {
+            Console.WriteLine("=== Caesar Cipher ===");
+            Console.WriteLine();
 
+            Console.Write("Enter a statement: ");
+            string text = Console.ReadLine();
+
+            Console.Write("Enter the shift amount: ");
+            int shift = Convert.ToInt32(Console.ReadLine());
+
+            string encrypted = CaesarCipher(text, shift);
+
+            Console.WriteLine();
+            Console.WriteLine("Encrypted text:");
+            Console.WriteLine(encrypted);
+
+            Console.WriteLine("\nPress Enter to return to the menu...");
+            Console.ReadLine();
+            Console.Clear();
+            Crypto();
+        }
+        public static string CaesarCipher(string text, int shift)
+        {
+            char[] result = new char[text.Length];
+
+            for (int i = 0; i < text.Length; i++)
+            {
+                char c = text[i];
+
+                if (char.IsLetter(c))
+                {
+                    char start = char.IsUpper(c) ? 'A' : 'a';
+
+                    result[i] = (char)(((c - start + shift) % 26 + 26) % 26 + start);
+                }
+                else
+                {
+                    result[i] = c;
+                }
+            }
+
+            return new string(result);
         }
         public static void CryptoAffine()
         {
